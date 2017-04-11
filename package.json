@@ -1,0 +1,23 @@
+{
+  "name": "s3-static-website-boilperplate",
+  "version": "0.0.1",
+  "description": "S3 Static Website Uploader Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "publish-staging": "./node_modules/.bin/gulp publish-staging",
+    "publish-production": "./node_modules/.bin/gulp publish-production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimblio/s3-static-website-boilperplate.git"
+  },
+  "author": "Rudolf Meijering <skaapgif@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nimblio/s3-static-website-boilperplate/issues"
+  },
+  "homepage": "https://github.com/nimblio/s3-static-website-boilperplate#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-awspublish": "^3.0.1"
+  }
+}
